@@ -1,6 +1,5 @@
 import {AfterViewInit, Component, ViewChild} from '@angular/core';
-import { CarouselComponent } from 'ngx-bootstrap/carousel';
-import { OwlOptions } from 'ngx-owl-carousel-o';
+
 import {NgbCarouselConfig} from "@ng-bootstrap/ng-bootstrap";
 
 @Component({

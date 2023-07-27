@@ -8,7 +8,6 @@ import { SolutionsComponent } from './solutions/solutions.component';
 import { StudiesComponent } from './studies/studies.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { WhatWeDoComponent } from './what-we-do/what-we-do.component';
-import {CarouselModule} from "ngx-owl-carousel-o";
 import {NgbCarousel} from "@ng-bootstrap/ng-bootstrap";
 import { WhoAreWeComponent } from './who-are-we/who-are-we.component';
 
@@ -29,7 +28,6 @@ import { WhoAreWeComponent } from './who-are-we/who-are-we.component';
   ],
   imports: [
     CommonModule,
-    CarouselModule,
     NgbCarousel
   ]
 })
