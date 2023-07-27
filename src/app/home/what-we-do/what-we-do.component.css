@@ -1,0 +1,61 @@
+/* about.component.css */
+.about {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-title {
+  margin-bottom: 20px;
+  color: #0088ff; /* Add your desired title color */
+}
+
+.about-description {
+  margin-bottom: 30px;
+}
+
+.about-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-item {
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.service-item:hover {
+  background-color: #0088ff; /* Add your desired hover color */
+  color: #fff; /* Add your desired text color on hover */
+  cursor: pointer;
+}
+
+.service-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-title {
+
+  }
+
+  .service-item {
+    width: 100%;
+  }
+}

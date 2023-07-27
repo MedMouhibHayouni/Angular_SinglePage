@@ -1,0 +1,77 @@
+/* about.component.css */
+.about-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-item {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-item h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about-item p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.learn-more-btn {
+  display: inline-block;
+  background-color: #0088FF;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #00CCFF;
+}
+
+/* Responsive Styles for Tablets and Phones */
+@media (max-width: 991px) {
+  .about-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+
+  .about-item {
+    padding: 20px;
+  }
+
+  .learn-more-btn {
+    margin-top: 15px;
+  }
+
+  .about-item h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .about-item p {
+    font-size: 14px;
+  }
+}

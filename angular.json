@@ -87,12 +87,25 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              ",../node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css",
+              "src/styles.scss",
+              "src/assets/assets/css/theme.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/assets/assets/js/plugins.js",
+              "src/assets/assets/js/theme.js"
+
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "21d63b33-4f16-4422-aba3-822637b184ba"
   }
 }

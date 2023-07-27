@@ -1,0 +1,91 @@
+/*!* Your other styles can go here *!*/
+
+/*.footer {*/
+/*  background-color: #f9f9f9;*/
+/*  padding: 50px 0;*/
+/*  text-align: center;*/
+/*}*/
+
+/*.container {*/
+/*  max-width: 1200px;*/
+/*  margin: 0 auto;*/
+/*  padding: 0 20px;*/
+/*}*/
+
+/*.footer-content {*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*  justify-content: space-between;*/
+/*  align-items: center;*/
+/*}*/
+
+/*.footer-left,*/
+/*.footer-right {*/
+/*  flex: 1;*/
+/*}*/
+
+/*.footer-left p {*/
+/*  margin-bottom: 10px;*/
+/*}*/
+
+/*.get-in-touch h5,*/
+/*.newsletter h5 {*/
+/*  font-size: 20px;*/
+/*  font-weight: bold;*/
+/*  margin-bottom: 15px;*/
+/*}*/
+
+/*.footer-links {*/
+/*  list-style: none;*/
+/*  padding: 0;*/
+/*  margin: 0;*/
+/*}*/
+
+/*.footer-links li {*/
+/*  display: inline-block;*/
+/*  margin-right: 20px;*/
+/*}*/
+
+/*.footer-links li:last-child {*/
+/*  margin-right: 0;*/
+/*}*/
+
+/*.footer-links a {*/
+/*  color: #555;*/
+/*  text-decoration: none;*/
+/*  transition: color 0.3s ease;*/
+/*}*/
+
+/*.footer-links a:hover {*/
+/*  color: #f91942;*/
+/*}*/
+
+/*.newsletter p {*/
+/*  margin-bottom: 15px;*/
+/*}*/
+
+/*form {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*}*/
+
+/*input[type="email"] {*/
+/*  flex: 1;*/
+/*  padding: 10px;*/
+/*  border: 1px solid #ccc;*/
+/*  border-radius: 5px 0 0 5px;*/
+/*}*/
+
+/*button {*/
+/*  background-color: #f91942;*/
+/*  color: #fff;*/
+/*  border: none;*/
+/*  padding: 10px 20px;*/
+/*  border-radius: 0 5px 5px 0;*/
+/*  cursor: pointer;*/
+/*  transition: background-color 0.3s ease;*/
+/*}*/
+
+/*button:hover {*/
+/*  background-color: #d70e32;*/
+/*}*/

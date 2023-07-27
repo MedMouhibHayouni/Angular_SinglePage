@@ -1,0 +1,147 @@
+/*@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,700&display=swap');*/
+
+/*!* The rest of your CSS styles here *!*/
+
+/*header {*/
+/*  position: fixed;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  width: 100%;*/
+/*  padding: 20px;*/
+/*  background-color: transparent;*/
+/*  transition: background-color 0.3s ease;*/
+/*  z-index: 1000;*/
+/*}*/
+
+/*header.sticky-header {*/
+/*  background-color: #007bff; !* Change this to the desired background color on scroll *!*/
+/*}*/
+
+/*.navbar {*/
+/*  display: flex;*/
+/*  justify-content: space-between;*/
+/*  align-items: center;*/
+/*}*/
+
+/*.navbar-logo img {*/
+/*  height: 40px;*/
+/*}*/
+
+/*.navbar-menu {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*}*/
+
+/*.navbar-menu a {*/
+/*  color: #fff;*/
+/*  margin: 0 15px;*/
+/*  text-decoration: none;*/
+/*  font-family: 'Lato', sans-serif;*/
+/*  font-weight: 700;*/
+/*  letter-spacing: 1px;*/
+/*}*/
+
+/*.navbar-menu a:hover {*/
+/*  text-decoration: underline;*/
+/*}*/
+
+/*.sub-menu {*/
+/*  position: relative;*/
+/*}*/
+
+/*.sub-menu-content {*/
+/*  display: none;*/
+/*  position: absolute;*/
+/*  top: 100%;*/
+/*  left: 0;*/
+/*  background-color: #007bff; !* Change this to the desired background color for sub-menu *!*/
+/*  padding: 10px;*/
+/*  border-radius: 5px;*/
+/*  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.sub-menu-content a {*/
+/*  display: block;*/
+/*  color: #fff;*/
+/*  text-decoration: none;*/
+/*  margin: 5px 0;*/
+/*  font-family: 'Open Sans', sans-serif;*/
+/*  font-weight: 400;*/
+/*}*/
+
+/*.sub-menu:hover .sub-menu-content {*/
+/*  display: block;*/
+/*}*/
+
+/*.mobile-menu-icon {*/
+/*  display: none;*/
+/*  cursor: pointer;*/
+/*}*/
+
+/*.mobile-menu-icon span {*/
+/*  display: block;*/
+/*  width: 30px;*/
+/*  height: 4px;*/
+/*  background-color: #fff;*/
+/*  margin: 6px auto;*/
+/*  transition: background-color 0.3s ease;*/
+/*}*/
+
+/*.mobile-menu-icon.open span:nth-child(2) {*/
+/*  opacity: 0;*/
+/*}*/
+
+/*.mobile-menu-icon.open span:nth-child(1) {*/
+/*  transform: translateY(10px) rotate(45deg);*/
+/*}*/
+
+/*.mobile-menu-icon.open span:nth-child(3) {*/
+/*  transform: translateY(-10px) rotate(-45deg);*/
+/*}*/
+
+/*!* Rest of your CSS styles for the mobile menu *!*/
+
+/*@media screen and (max-width: 768px) {*/
+/*  header {*/
+/*    padding: 15px;*/
+/*  }*/
+
+/*  .navbar-menu {*/
+/*    display: none;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    position: fixed;*/
+/*    top: 56px;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    background-color: #007bff;*/
+/*    padding-top: 20px;*/
+/*    border-radius: 5px;*/
+/*    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+/*    opacity: 0;*/
+/*    pointer-events: none;*/
+/*    transition: opacity 0.3s ease;*/
+/*  }*/
+
+/*  .navbar-menu.open {*/
+/*    display: flex;*/
+/*    opacity: 1;*/
+/*    pointer-events: auto;*/
+/*  }*/
+
+/*  .navbar-menu a {*/
+/*    margin: 10px;*/
+/*  }*/
+
+/*  .mobile-menu-icon {*/
+/*    display: block;*/
+/*  }*/
+/*}*/
+/*.blue-background1 {*/
+/*  background-color: #007bff; !* Change to your desired blue color *!*/
+/*  !* Add any other styles you want for the navigation bar background *!*/
+/*}*/
+/*.blue-background2 {*/
+/*  background-color: #007bff; !* Change to your desired blue color *!*/
+/*  !* Add any other styles you want for the navigation bar background *!*/
+/*}*/
